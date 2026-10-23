@@ -1,0 +1,10 @@
+# Antigravity GameDev Pack .gitignore
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.zip
+.env
+.env.*

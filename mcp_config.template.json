@@ -1,0 +1,41 @@
+{
+    "mcpServers": {
+        "ferramentas-dev-lyra": {
+            "command": "node",
+            "args": [
+                "{{USERPROFILE}}/Documents/orquestrador/mcp-local.js"
+            ],
+            "env": {}
+        },
+        "blender-3d-cad": {
+            "command": "python",
+            "args": [
+                "{{USERPROFILE}}/Documents/3d_agent/mcp_server.py"
+            ]
+        },
+        "unreal-mcp": {
+            "command": "python",
+            "args": [
+                "{{USERPROFILE}}/Documents/all4one/unreal-mcp/Python/unreal_mcp_server.py"
+            ]
+        },
+        "pixelforge": {
+            "command": "node",
+            "args": [
+                "{{USERPROFILE}}/Documents/pixelforge-mcp/node_modules/pixelforge-mcp/dist/index.js"
+            ],
+            "env": {
+                "GEMINI_API_KEY": ""
+            }
+        },
+        "game-asset-generator": {
+            "command": "node",
+            "args": [
+                "{{USERPROFILE}}/Documents/game-asset-mcp/src/index.js"
+            ],
+            "env": {
+                "HF_TOKEN": ""
+            }
+        }
+    }
+}
